@@ -1,22 +1,38 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(255, 255, 255) !important;
   font-family: sans-serif;
-  padding: 1rem;
 }
 
-.card-size {
-  width: 13rem;
-  object-fit: cover;
+
+/* NAVBARCSS */
+
+#logo-sizing {
+  max-height: 30px;
+  padding-right: 10%;
+}
+
+.dimension-header {
+  justify-content: space-between;
+  padding: 2% 1% 2% 1%;
 
 }
 
-.img-size {
-  height: 15rem !important;
+#nav-login {
+  display: flex;
+  height: 25px;
+  padding-right: 2%;
+}
 
+.nav-color-bar {
+  color: white;
+  font-size: large
+}
+
+#nav-text {
+  font-weight: 700;
 }
