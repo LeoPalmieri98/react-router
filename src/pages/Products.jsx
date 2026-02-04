@@ -1,5 +1,7 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import { Link, NavLink } from "react-router-dom";
+import NavBar from '../components/Navbar';
 
 
 function Products() {
@@ -20,10 +22,9 @@ function Products() {
 
     return (
         <div>
-            <nav className="navbar navbar-dark bg-primary">
-                <p>Questi sono i nostri prodotti</p>
-            </nav >
-            <h1>Hello Router</h1>
+            <NavBar />
+            <h1>Prodotti</h1>
+            <p>Questi sono i nostri prodotti</p>
         </div >
 
     )

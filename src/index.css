@@ -8,31 +8,8 @@ body {
   font-family: sans-serif;
 }
 
-
-/* NAVBARCSS */
-
-#logo-sizing {
-  max-height: 30px;
-  padding-right: 10%;
-}
-
-.dimension-header {
-  justify-content: space-between;
-  padding: 2% 1% 2% 1%;
-
-}
-
-#nav-login {
-  display: flex;
-  height: 25px;
-  padding-right: 2%;
-}
-
-.nav-color-bar {
-  color: white;
-  font-size: large
-}
-
-#nav-text {
-  font-weight: 700;
+#logo-nav {
+  width: 5rem;
+  padding: 1rem;
+  margin-left: -18rem;
 }

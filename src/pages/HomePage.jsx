@@ -1,15 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
+import NavBar from '../components/Navbar';
 
 function HomePage() {
 
     return (
 
         <div>
+            <NavBar />
             <h1>HomePage</h1>
-            <nav>
-                <Link to="/">Home Page</Link>
-                <NavLink className="btn btn-dark" to="/products">Prodotti</NavLink>
-            </nav>
         </div>
     );
 }
