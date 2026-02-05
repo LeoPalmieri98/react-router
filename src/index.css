@@ -13,3 +13,21 @@ body {
   padding: 1rem;
   margin-left: -18rem;
 }
+
+.custom-card-img {
+  height: 200px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.card {
+  transition: transform 0.2s;
+  border: 1px solid #eee;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

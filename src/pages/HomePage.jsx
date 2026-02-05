@@ -1,12 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
-import NavBar from '../components/Navbar';
+
 
 function HomePage() {
 
     return (
 
-        <div>
-            <NavBar />
+        <div className="text-primary">
             <h1>HomePage</h1>
         </div>
     );

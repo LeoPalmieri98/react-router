@@ -1,10 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
-import NavBar from '../components/Navbar';
+
 
 function About() {
     return (
-        <div>
-            <NavBar />
+        <div className="text-primary">
             <h1>Footer</h1>
 
         </div>
